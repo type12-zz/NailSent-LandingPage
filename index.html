@@ -1,196 +1,147 @@
-<!DOCTYPE html>
-<html>
+<!doctype html>
+<html lang="en">
   <head>
-    <title>NailSent Landing Page</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-    <!-- Google Fonts -->
-    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
-
-    <!-- Bootstrap CSS from a CDN. This way you don't have to include the bootstrap file yourself -->
+    <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous"> -->
-    
+
     <!-- Your own stylesheet -->
     <link rel="stylesheet" type="text/css" href="style.css">
+
+    <title>NailSent Signup</title>
   </head>
   <body>
-    
-      <div style="display : flex; padding : 10px 15px;background : #fff; height: 75px; margin-bottom: 25px; align-items: center;">
-        <img src="logo.jpg" style="width : 100px;padding : 5px 10px; height: 60px;" />
-        
-      </div>
-    <div class='container'>
-      <!-- Display the countdown timer in an element -->
-      <h1 id="launchDate" style="margin-left:427px; font-size:32px; color:#a4ff13; font-size: xx-large;"></h1>
+    <div class="jumbotron" style="background-color: black;">
+        <!-- <h1 class="display-4">Hello, world!</h1> -->
+        <!-- <h1 id="launchDate" style="margin-left:427px; font-size:32px; color:#a4ff13; font-size: xx-large;"></h1> -->
+        <h1 id="launchDate" style=" font-size:32px; color:#a4ff13; font-size: xx-large;"></h1>
 
-      <div style="text-align: center;">
-        <h2 style="font-weight: 600; margin: 0; color:white;">Nail Therapy At It's Best</h2>
-      </div>
-      <!-- <h1 style="margin-left: 200px;">Shopping and Discovering Nails With Ease</h1> -->
-      <i><h3 style="text-align: center; padding: 20px; color: #fff;">Nail Therapy At It's Best</h3></i>
-
-
-      <!--Card Infomation Section-->
-      <!-- <div class="row" style="margin-left:255px; margin-top: 100px;">
-        <div class="col-sm-4">
-          <div class="card">
-            <div class="card-body">
-              <h5 class="card-title" style="text-align: center;"><strong>Buyer Video</strong></h5>
-              <iframe src="https://www.youtube.com/embed/fvR6fy_AZ8g?start=818" title="Cuticle prep and applying glue" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="margin-left: 30px; height:100%; width:80%;"></iframe>
-              <!-- <p class="card-text">With supporting text below as a natural lead-in to additional content.</p> -->
-              <!-- <a href="#" class="btn btn-primary">Go somewhere</a> -->
-            <!-- </div>
-          </div>
+        <!-- <div style="text-align: center;">
+            <h2 style="font-weight: 600; margin: 0; color:white;">Nail Therapy At It's Best</h2>
         </div> -->
-        <!-- <div class="col-sm-4">
-          <div class="card">
-            <div class="card-body">
-              <h5 class="card-title" style="text-align: center;"><strong>Seller Video</strong></h5>
-              <iframe src="https://www.youtube.com/embed/fvR6fy_AZ8g?start=818" title="Cuticle prep and applying glue" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="margin-left: 30px; height:100%; width:80%;"></iframe> -->
-              <!-- <p class="card-text">With supporting text below as a natural lead-in to additional content.</p> -->
-              <!-- <a href="#" class="btn btn-primary">Go somewhere</a> -->
-            <!-- </div>
-          </div>
-        </div>
-      </div> --> -->
-      <!-- Button trigger modal -->
-<!-- <button type="button" class="btn btn-warning" data-bs-toggle="modal" data-bs-target="#staticBackdrop" style="margin-left:475px; margin-top: 60px; color:#ff0000;">
-  Find Out More -->
-<!-- </button> -->
-<button type="button" class="btn btn-warning" data-bs-toggle="modal" data-bs-target="#staticBackdrop" style="margin-left:465px; margin-top: 0px; color:#ff0000;">
-  Find Out More
-</button>
 
 
-<form action="https://gmail.us1.list-manage.com/subscribe/post" method="POST">
-<input type="hidden" name="u" value="faf84601000af1364c3567918">
-<input type="hidden" name="id" value="0bd5724a8c">
+        <!-- <p class="lead">This is a simple hero unit, a simple jumbotron-style component for calling extra attention to featured content or information.</p>
+        <p class="lead">This is a simple hero unit, a simple jumbotron-style component for calling extra attention to featured content or information.</p> -->
+        <hr class="my-4">
+        <!-- <p>It uses utility classes for typography and spacing to space content out within the larger container.</p> -->
+        <i><h3 style="text-align: center; padding: 20px; color: #fff;">Nail Therapy At It's Best</h3></i>
+        <!-- <a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a> -->
 
-<!-- Modal -->
-<div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
-  <div class="modal-dialog">
-    <div class="modal-content" style="background-color: black; ">
-      <div class="modal-header">
-        <h5 class="modal-title" id="staticBackdropLabel" style="color:orange;">Register for updates</h5>
-        <button type="button" class="close" data-bs-dismiss="modal" aria-label="Close" style="color:white;">
-          <span aria-hidden="true">&times;</span>
+        <!-- Button trigger modal -->
+        <button type="button" class="btn btn-warning" data-toggle="modal" data-target="#exampleModal" style=" margin-top: 0px; color:#ff0000;">
+            Find Out More
         </button>
-          
-        <!-- </button> -->
-      </div>
-      <div class="modal-body">
-        <!--Inner Modal Form-->
-        <!-- <form> -->
-          <div class="row mb-3">
-            <div class="col-sm-10">
-              <input type="text" name="MERGE1" id="MERGE1" size="25" value="" placeholder="First Name">
-              <!-- <input type="text" class="form-control" class="form-control" placeholder="First Name" id="f_name"> -->
-            </div>
-          </div>
-
-          <div class="row mb-3">
-            <div class="col-sm-10">
-              <input type="text" name="MERGE2" id="MERGE2" size="25" value="" placeholder="Last Name">
-              <!-- <input type="text" class="form-control" class="form-control" placeholder="Last Name" id="l_name"> -->
-            </div>
-          </div>
-
-          <div class="row mb-3">
-            <div class="col-sm-10">
-              <input type="email" autocapitalize="off" autocorrect="off" name="MERGE0" id="MERGE0" size="25" value="" placeholder="Email">
-              <!-- <input type="email" class="form-control" class="form-control" placeholder="Email" id="inputEmail3"> -->
-            </div>
-          </div>
-          
-          <div class="row mb-3">
-            <div class="col-sm-10">
-              <input type="text" name="MERGE3" id="MERGE3" size="25" value="" placeholder="IG Handle (Seller's Only)">
-              <!-- <input type="text" class="form-control" class="form-control" placeholder="Instagram Handle (Seller's Only)" id="instagram_handle"> -->
-            </div>
-          </div>
-
-          <fieldset class="row mb-3">
-            <legend class="col-form-label col-sm-6 pt-0" style="color:white;">Account Type</legend>
-            <div class="col-sm-10">
-              <!-- <div class="form-check">
-                <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios1" value="option1" checked>
-                <label class="form-check-label" for="gridRadios1">
-                  Buyer
-                </label>
-              </div>
-              <div class="form-check">
-                <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios2" value="option2">
-                <label class="form-check-label" for="gridRadios2">
-                  Seller
-                </label>
-              </div> -->
-
-              <div class="interestgroup_field radio-group" id="MERGE4"> 
-                <label class="radio" for="MERGE4-0"><input type="radio" data-dojo-type="dijit/form/RadioButton" name="MERGE4" id="MERGE4-0" value="Buyer"  class="av-radio"><span style="color:white;">Buyer</span></label>
-                <br>
-                <label class="radio" for="MERGE4-1"><input type="radio" data-dojo-type="dijit/form/RadioButton" name="MERGE4" id="MERGE4-1" value="Seller"  class="av-radio"><span style="color:white;">Seller</span></label>
-              </div>
-
-              <div id="interestTable">
-        
-            
-                <div id="mergeRow-100-381086" class="mergeRow dojoDndItem mergeRow-interests-checkboxes">
-                    <label style="color:orange; font-size:large;">Click to join our beta tester group</label>
-                    <div class="field-group groups">
-                        <ul class="interestgroup_field checkbox-group" style="list-style-type:none;"> 
-                          <li class="!margin-bottom--lv2"> 
-                            <label class="checkbox" for="group_1">
-                              <input type="checkbox" data-dojo-type="dijit/form/CheckBox" id="group_1" name="group[381086][1]" value="1"  class="av-checkbox">
-                              <span style="color:white;">Become a beta test</span> 
-                            </label> 
-                          </li> 
-                        </ul>
-    
-                    </div>
-                </div>
-                
-            
-            </div>
-              
-            </div>
-          </fieldset>
-          <!-- <button type="submit" class="btn btn-danger">Sign Up Now</button> -->
-          <input type="submit"  class ="btn btn-danger" class="formEmailButton" name="submit" value="Sign Up Now">
-          <input type="hidden" name="ht" value="1966db1d2ad8e10f28ddcd9ce40844f5ce919527:MTYyMTMwMTI0Ni44MDE=">
-          <input type="hidden" name="mc_signupsource" value="hosted">
-        </form>
-      </div>
-      <div class="modal-footer">
-        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-        <!-- <button type="button" class="btn btn-primary">Understood</button> -->
-      </div>
     </div>
-  </div>
-</div>
-<!-- <div style="display : flex;justify-content : space-between;padding : 20px 10px; background : #fff; position: absolute; left: 0; bottom: 0; width: 100%;">
-      <p></p>
-      <p></p>
-      <p></p>
-      <p></p>
-    </div> -->
-<!-- <div style="display : flex;justify-content : space-between;padding : 10px 15px;background: #fff; left: 0; bottom: 0; position: absolute; width: 100%;">
-  <div><p>Footer 1</p><p>Footer 1</p><p>Footer 1</p><p>Footer 1</p></div>
-  <div><p>Footer 2</p><p>Footer 2</p><p>Footer 2</p><p>Footer 2</p></div>
-  <div><p>Footer 3</p><p>Footer 3</p><p>Footer 3</p><p>Footer 3</p></div>
-  <div><p>Footer 4</p><p>Footer 4</p><p>Footer 4</p><p>Footer 4</p></div>
-</div> -->
-      
 
-      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
+    <form action="https://gmail.us1.list-manage.com/subscribe/post" method="POST">
+        <input type="hidden" name="u" value="faf84601000af1364c3567918">
+        <input type="hidden" name="id" value="0bd5724a8c"> 
 
+        <!-- Modal -->
+        <div class="modal fade" id="exampleModal" data-bs-backdrop="static" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog" role="document">
+            <div class="modal-content" style="background-color: black; border-color:#196c50;">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="staticBackdropLabel" style="color:orange;">Register for updates</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close" style="color:white;">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+                </div>
+                <div class="modal-body">
+                    <!--Inner Modal Form-->
+                    <!-- <form> -->
+                      <div class="row mb-3">
+                        <div class="col-sm-10">
+                          <input type="text" name="MERGE1" id="MERGE1" size="25" value="" placeholder="First Name">
+                          <!-- <input type="text" class="form-control" class="form-control" placeholder="First Name" id="f_name"> -->
+                        </div>
+                      </div>
+            
+                      <div class="row mb-3">
+                        <div class="col-sm-10">
+                          <input type="text" name="MERGE2" id="MERGE2" size="25" value="" placeholder="Last Name">
+                          <!-- <input type="text" class="form-control" class="form-control" placeholder="Last Name" id="l_name"> -->
+                        </div>
+                      </div>
+            
+                      <div class="row mb-3">
+                        <div class="col-sm-10">
+                          <input type="email" autocapitalize="off" autocorrect="off" name="MERGE0" id="MERGE0" size="25" value="" placeholder="Email">
+                          <!-- <input type="email" class="form-control" class="form-control" placeholder="Email" id="inputEmail3"> -->
+                        </div>
+                      </div>
+                      
+                      <div class="row mb-3">
+                        <div class="col-sm-10">
+                          <input type="text" name="MERGE3" id="MERGE3" size="25" value="" placeholder="IG Handle (Seller's Only)">
+                          <!-- <input type="text" class="form-control" class="form-control" placeholder="Instagram Handle (Seller's Only)" id="instagram_handle"> -->
+                        </div>
+                      </div>
+            
+                      <fieldset class="row mb-3">
+                        <legend class="col-form-label col-sm-6 pt-0" style="color:white;">Account Type</legend>
+                        <div class="col-sm-10">
+                          <!-- <div class="form-check">
+                            <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios1" value="option1" checked>
+                            <label class="form-check-label" for="gridRadios1">
+                              Buyer
+                            </label>
+                          </div>
+                          <div class="form-check">
+                            <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios2" value="option2">
+                            <label class="form-check-label" for="gridRadios2">
+                              Seller
+                            </label>
+                          </div> -->
+            
+                          <div class="interestgroup_field radio-group" id="MERGE4"> 
+                            <label class="radio" for="MERGE4-0"><input type="radio" data-dojo-type="dijit/form/RadioButton" name="MERGE4" id="MERGE4-0" value="Buyer"  class="av-radio"><span style="color:white;">Buyer</span></label>
+                            <br>
+                            <label class="radio" for="MERGE4-1"><input type="radio" data-dojo-type="dijit/form/RadioButton" name="MERGE4" id="MERGE4-1" value="Seller"  class="av-radio"><span style="color:white;">Seller</span></label>
+                          </div>
+            
+                          <div id="interestTable">
+                    
+                        
+                            <div id="mergeRow-100-381086" class="mergeRow dojoDndItem mergeRow-interests-checkboxes">
+                                <label style="color:orange; font-size:large;">Click to join our beta tester group</label>
+                                <div class="field-group groups">
+                                    <ul class="interestgroup_field checkbox-group" style="list-style-type:none;"> 
+                                      <li class="!margin-bottom--lv2"> 
+                                        <label class="checkbox" for="group_1">
+                                          <input type="checkbox" data-dojo-type="dijit/form/CheckBox" id="group_1" name="group[381086][1]" value="1"  class="av-checkbox">
+                                          <span style="color:white;">Become a beta test</span> 
+                                        </label> 
+                                      </li> 
+                                    </ul>
+                
+                                </div>
+                            </div>
+                            
+                        
+                        </div>
+                          
+                        </div>
+                      </fieldset>
+                      <!-- <button type="submit" class="btn btn-danger">Sign Up Now</button> -->
+                      <input type="submit"  class ="btn btn-danger" class="formEmailButton" name="submit" value="Sign Up Now">
+                      <input type="hidden" name="ht" value="1966db1d2ad8e10f28ddcd9ce40844f5ce919527:MTYyMTMwMTI0Ni44MDE=">
+                      <input type="hidden" name="mc_signupsource" value="hosted">
+                    </form>
+                  </div>
+                <div class="modal-footer">
+                </div>
+            </div>
+            </div>
 
-      <!--CountDown Timer-->
+             <!--CountDown Timer-->
       <script>
         // Set the date we're counting down to
-        var countDownDate = new Date("October 25, 2021 09:00:00").getTime();
+        var countDownDate = new Date("October 1, 2021 09:00:00").getTime();
         
         // Update the count down every 1 second
         var x = setInterval(function() {
@@ -219,5 +170,10 @@
         }, 1000);
         </script>
         </div>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
   </body>
 </html>
