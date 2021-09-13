@@ -11,8 +11,114 @@ html {
   background-size: cover;
 }
 
-
-
 h1{
   color: white
+}
+
+@media only screen and (min-width: 300px) {
+  body {
+    background-color: lightblue;
+  }
+
+  h1#launchDate{
+    margin-left: 0%;
+  }
+
+  button.btn.btn-warning{
+    margin-left: 33%;
+  }
+}
+
+
+@media only screen and (min-width: 460px) {
+  body {
+    background-color: lightblue;
+  }
+
+  h1#launchDate{
+    margin-left: 2%;
+  }
+
+  button.btn.btn-warning{
+    margin-left: 33%;
+  }
+}
+
+
+@media only screen and (min-width: 768px) {
+  body {
+    background-color: lightblue;
+    /* margin-left: 7%; */
+    
+  }
+
+  h1#launchDate{
+    margin-left: 32%;
+  }
+
+  button.btn.btn-warning{
+    margin-left: 40%;
+  }
+}
+
+
+@media only screen and (min-width: 999px) {
+  body {
+    background-color: lightblue;
+    /* margin-left: 7%; */
+    
+  }
+
+  h1#launchDate{
+    margin-left: 32%;
+  }
+
+  button.btn.btn-warning{
+    margin-left: 40%;
+  }
+}
+
+
+@media only screen and (min-width: 280px) {
+  body {
+    background-color: lightblue;
+  }
+
+  h1#launchDate{
+    margin-left: 28%;
+  }
+
+  button.btn.btn-warning{
+    margin-left: 25%;
+  }
+}
+
+
+@media only screen and (min-width: 1046px) {
+  body {
+    background-color: lightblue;
+  }
+
+  h1#launchDate{
+    margin-left: 40%;
+  }
+
+  button.btn.btn-warning{
+    margin-left: 47%;
+  }
+}
+
+
+@media only screen and (min-width: 1000px) {
+  body {
+    background-color: lightblue;
+  }
+
+  h1#launchDate{
+    margin-left: 40%;
+  }
+
+  button.btn.btn-warning{
+    margin-left: 44%;
+  }
 }
